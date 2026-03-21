@@ -13,13 +13,13 @@ ventana.title("fucuinar PDFs")
 ventana.minsize(width=300, height=400)
 ventana.config(padx=35, pady= 35)
 
-ventana.iconbitmap("1.ico")
-ventana.configure(bg="light blue")
+#ventana.iconbitmap("1.ico")
+#ventana.configure(bg="light blue")
 
-canvas= Canvas(width=330, height=330)
-foto= PhotoImage(file="mi.png")
-canvas.create_image(170, 170, image=foto)
-canvas.grid(column=0, row= 0)
+#canvas= Canvas(width=330, height=330)
+#foto= PhotoImage(file="mi.png")
+#canvas.create_image(170, 170, image=foto)
+#canvas.grid(column=0, row= 0)
 
 etiqueta1 =Label(text= "coloque la carpeta con los pdfs.", font=("Arial",14))
 
